@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.card h1 {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Form IntroQuestions*/
+form > label {
+    display: block; 
+    margin-bottom: 10px; 
+    
+}
+
+form > input {
+    display: block; 
+    margin-bottom: 25px; 
+}
+
+/* ServiceQuestions */
+.have-agency {
+    display: block; /* This will put it on its own line */
+    margin-bottom: 10px; /* Space below the label */
+}
+
+/* Style for radio buttons and their labels */
+.radiobutton label {
+    display: inline-block; /* Inline-block makes them appear in a row */
+    margin-right: 10px; /* Space between the label and radio button */
+}
+
+.radiobutton input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and its label */
+}
+
+/* Style for the label with className 'please-select' */
+.please-select {
+    display: block; /* This will put it on its own line */
+    margin-bottom: 10px; /* Space below the label */
+   
+}
+
+/* Style for checkboxes and their labels */
+.checkboxes label {
+    display: block; /* Each checkbox and label on its own line */
+    margin-bottom: 5px; /* Space between each checkbox line */
+}
+
+
+.checkboxes input[type="checkbox"] {
+    margin-right: 5px; /* Space between checkbox and its label */
+    display: inline-block; /* Align the checkbox with its label */
+}
+
+
+/* BudgetQuestion */
+
+/* Slider imported from w3 school */
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+      
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #04AA6D; 
+    cursor: pointer; 
+    border-radius: 50%; 
+  }
+  
+/* Summary */
+
+.summary-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    border: 1px solid black;
+    padding: 2rem;
+}
+.summary-card p, h1 {
+    margin-bottom: 25px;
+}
+.summary-card ul {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}

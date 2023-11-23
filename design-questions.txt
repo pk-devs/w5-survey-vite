@@ -1,0 +1,49 @@
+Form 
+
+Text input req : Name 
+Text input req : LastName
+Text input req : Website/Company
+Radio buttons req: What do you need help with? 
+1) Website 2) SEM 3) SEO 4) Other
+If ( === Website) {
+    What is your budget? 
+Ranger slider: 0 - 250 000 kr + 
+} 
+
+If ( === SEM) {
+    Do you have a Google Ads account? 
+    Do you track conversions? 
+}
+
+if ( === SEO) {
+
+}
+
+
+
+
+
+
+
+Q1. What is your hero name? 
+input text, button "next question"
+
+Q2. What superpower would you have? 
+Dropdown, 4 choices: Teleport, Be invisible, Fly, Superstrong
+
+Q3. What part would your disguise have? (multiselection OK)
+Radio buttons, 1. Cape, 2.Gloves, 3.Hat, 4. Shorts, 5. Boots
+
+Summary of survey: 
+
+Your hero name is {heroname}.
+{superpower} is your superpower, neat! 
+Your disguise contains of [Array with selection from Q3]
+
+
+How to code: 
+
+1. Create necessary HTML
+2. Setup folder structure and necessary files 
+    a. 
+
